@@ -95,3 +95,70 @@ footer {
     padding: 10px;
     text-align: center;
     }
+
+/*móviles */
+@media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+
+    h2{
+        float: left;
+    }
+  
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    .valor {
+      margin-bottom: 20px;
+    }
+  }
+  
+/* tablets */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2{
+        float: left;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    .valor {
+      margin-bottom: 20px;
+    }
+  }
+  
+/*ordenadores */
+  @media (min-width: 1025px) {
+    header {
+      flex-direction: row;
+    }
+  
+    nav {
+      margin-top: 0;
+    }
+  
+    main {
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .valor {
+      margin-bottom: 0;
+    }
+  }
+  
