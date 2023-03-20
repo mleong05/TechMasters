@@ -36,6 +36,10 @@ main {
   padding: 20px;
   }
 
+h2 {
+  color: white;
+}
+
 .grid-container {
   display: grid;
   /*esta línea de abajo admito que la he tenido que buscar para que me cuadrase todo*/

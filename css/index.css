@@ -43,6 +43,14 @@ main {
     grid-gap: 20px;
     padding: 20px;
     }
+
+.black{
+    color: black;
+}
+
+h2 {
+    color: white;
+}
   
 .destacado {
     grid-column: 1 / -1;
