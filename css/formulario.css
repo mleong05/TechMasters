@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("../img/fondo.jpg");
 }
   
 header {
@@ -46,6 +47,7 @@ label {
     margin-bottom: 0.5rem;
     text-align: left;
     width: 100%;
+    color: white;
     }
   
 input, textarea {
