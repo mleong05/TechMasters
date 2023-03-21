@@ -80,11 +80,20 @@ h4 {
   }
 
 footer {
-  background-color: #1e88e5;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  }
+        background-color: #1e88e5;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        height: 3rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
+    
+        footer a img{
+            height: 2rem;
+            margin-left: 1%;
+        }
+        .facebook{
+            margin-left: 67%;
+        }

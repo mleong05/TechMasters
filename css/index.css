@@ -94,6 +94,15 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+    height: 3rem;
+    }
+
+    footer a img{
+        height: 2rem;
+        margin-left: 1%;
+    }
+    .facebook{
+        margin-left: 67%;
     }
 
 /*móviles */
